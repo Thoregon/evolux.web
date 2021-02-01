@@ -1,6 +1,7 @@
 WWW
 ===
 
+The bridge to the world wide web.
 Easy make API's and PWA's available on the Web.
 
 ## Terminals
