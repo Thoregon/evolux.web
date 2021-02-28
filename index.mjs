@@ -4,7 +4,7 @@
  * @author: Bernhard Lukassen
  */
 
-import WebService                       from "./lib/webservice.mjs";
+import WebserviceController from "./lib/webservicecontroller.mjs";
 
 // terminal templates
 export { default as Terminal }          from "./lib/terminals/terminal.mjs";
@@ -14,4 +14,4 @@ export { default as EventTerminal }     from "./lib/terminals/eventterminal.mjs"
 // implemented terminals
 export { default as RestFull }          from "./lib/terminals/http/restfull.mjs";
 
-export const service = new WebService();
+export const service = new WebserviceController();
