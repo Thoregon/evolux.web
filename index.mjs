@@ -14,4 +14,7 @@ export { default as EventTerminal }     from "./lib/terminals/eventterminal.mjs"
 // implemented terminals
 export { default as RestFull }          from "./lib/terminals/http/restfull.mjs";
 
+// publish annotations
+export { default as Restfull, Auth, Get, Put, Post, Delete, Patch, Head, Consumes, Produces, Path }  from "./lib/annotations/restfull.mjs"
+
 export const service = new WebserviceController();
